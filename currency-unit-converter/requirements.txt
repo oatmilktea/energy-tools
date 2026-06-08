@@ -1,0 +1,11 @@
+# Python dependencies for the Energy Unit & Currency Converter
+#
+# tkinter is NOT listed here because it ships with Python itself (it is part
+# of the standard library), so there is nothing to install for the GUI.
+#
+# The only third-party package we need is `requests`, used to fetch live
+# foreign-exchange rates from the Frankfurter API at app launch.
+#
+# Install everything with:   pip install -r requirements.txt
+
+requests>=2.25.0
